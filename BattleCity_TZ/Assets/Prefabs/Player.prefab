@@ -83,6 +83,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   rb: {fileID: 4796679593588469594}
+  playerGrahyx: {fileID: 0}
 --- !u!50 &4796679593588469594
 Rigidbody2D:
   serializedVersion: 4
@@ -146,6 +147,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c0e7378ae9fb334b9263ec64e39ebf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  liveAmount: 3
 --- !u!1 &4796679594591271104
 GameObject:
   m_ObjectHideFlags: 0
@@ -218,7 +220,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_Sprite: {fileID: -4642446393720103696, guid: 10ee72ad91db17749b8e7aba83b98388, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
